@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+
+    <title>Wheather app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="location">
+
+            <h1 class="location-timezone" id="loc"></h1>
+        </div>
+        <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree"></h2>
+                <span id="cf"></span>
+            </div>
+        </div>
+        <div class="desc">
+            <div class="temperature-description">choose city</div>
+            <img id="icon" />
+        </div>
+        <div class="selection">
+            <input id="city" name="city" value="" />
+            <button type="submit" id="btn">Select</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
