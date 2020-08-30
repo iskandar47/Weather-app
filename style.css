@@ -36,6 +36,7 @@ h1 {
     font-size: 5rem;
     font-weight:bold;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
 }
 @media (max-width: 576px){
     h1{font-size: 4rem;}
