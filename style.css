@@ -39,7 +39,7 @@ h1 {
     text-align: center;
 }
 @media (max-width: 576px){
-    h1{font-size: 4rem;}
+    h1{font-size: 3rem;}
 }
 
 .location, .temperature {
