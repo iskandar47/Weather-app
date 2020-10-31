@@ -4,10 +4,7 @@
     padding: 0;
 }
 body{
-    background-image: url(weatherbg.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+  background-color : #3455FF;
 }
 .container {
     display: inline;
